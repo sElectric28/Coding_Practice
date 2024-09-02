@@ -1,0 +1,66 @@
+body {
+    background-image: url(train_station.jpg);
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header h2 {
+    font-size: 50px;
+}
+
+.container {
+    border: 2.5px solid black;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+}
+
+.container h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 350px;
+    margin-bottom: 5px;
+    border-radius: 5px; 
+}
+
+#increment-btn {
+    background-color:blueviolet;
+}
+
+#save-btn {
+    background-color: steelblue;
+}
+
+#erase-btn {
+    background-color: red;
+}
+
+button:active {
+    border-color: white;
+}
+
+#save-el {
+    font-weight: bold;
+}
